@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<table>
+    <input type="text" class="result" disabled id="num">
+    <tr>
+        <td onclick="numcall(7);">7</td>
+        <td onclick="numcall(8);">8</td>
+        <td onclick="numcall(9);">9</td>
+        <td onclick="numcall('+');">+</td>
+    </tr>
+    <tr>
+        <td onclick="numcall(4);">4</td>
+        <td onclick="numcall(5);">5</td>
+        <td onclick="numcall(6);">6</td>
+        <td onclick="numcall('-');">-</td>
+    </tr>
+    <tr>
+        <td onclick="numcall(1);">1</td>
+        <td onclick="numcall(2);">2</td>
+        <td onclick="numcall(3);">3</td>
+        <td onclick="numcall('*');">*</td>
+    </tr>
+    <tr>
+        <td onclick="numcall(0);">0</td>
+        <td onclick="numcall('.');">.</td>
+        <td onclick="numcall('/');">/</td>
+        <td onclick="calculate();" class="red">=</td>
+    </tr>
+    <tr>
+        <td onclick="lstvalue();">C</td>
+        <td colspan="3" class="red" onclick="clean();">AC</td>
+    </tr>
+</table>
+</body>
+<script src="app.js"></script>
+</html>
